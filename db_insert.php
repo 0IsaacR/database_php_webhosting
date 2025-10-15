@@ -1,4 +1,23 @@
+//-------------------------
+// Title: db_insert.php
+//-------------------------
+// Program Details:
+//-------------------------
+// Purpose: takes data received from GET method and inserts it into the database. Thus updating my data dashboard.
+// Inputs:  GET Method URL
+// Outputs: None
+// Date:  10/14/25
+// Compiler: NA
+// Author:  Isaac Rodriguez
+// Versions:
+//            V1 - collects data from URL and saves it.
+//-------------------------
+// File Dependancies:
+//-------------------------
 
+//-------------------------
+// Main Program
+//-------------------------
 
 
 <?php
@@ -7,9 +26,9 @@
 
 //database
     $servername = "localhost";
-    $username = "u212152591_db_IsaacR";
-    $password = "!AFqhecYg0S";
-    $dbname = "u212152591_IsaacR";
+    $username = "";
+    $password = "";
+    $dbname = "";
     $enableTemp = 'T';
     $enableTime = 'T';
     $test = key($_REQUEST);
