@@ -1,8 +1,28 @@
-""" 
-    
+//-------------------------
+// Title: sensor-data.php
+//-------------------------
+// Program Details:
+//-------------------------
+// Purpose: Used to graphically represent all my data in a tables and graphs
+// Inputs:  None
+// Outputs: None
+// Date:  10/14/25
+// Compiler: NA
+// Author:  Isaac Rodriguez
+// Versions:
+//            V1 - collects data from database then tables and graphs
+//-------------------------
+// File Dependancies:
+                "./sql/all_data.php"
+                "./sql/registered_devices.php" 
+                "./sql/average/node1.php"  
+//     these files grab the data from the database.
+//-------------------------
 
+//-------------------------
+// Main Program
+//-------------------------
 
-"""
 
 
 <?php require ("./sql/all_data.php");
