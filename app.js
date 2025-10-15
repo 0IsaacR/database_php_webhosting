@@ -1,3 +1,24 @@
+//-------------------------
+// Title: app.js
+//-------------------------
+// Program Details:
+//-------------------------
+// Purpose: outline used to create the graphs on my data dashboard.
+// Inputs:  None
+// Outputs: None
+// Date:  10/14/25
+// Compiler: NA
+// Author:  Isaac Rodriguez
+// Versions:
+//            V1 - collects data from database and creates foundation for charts.
+//-------------------------
+// File Dependancies: 
+//     https://isaacr.org/charts/data.php
+//-------------------------
+
+//-------------------------
+// Main Program
+//-------------------------
 $(document).ready(function(){
   $.ajax({
     url: "https://isaacr.org/charts/data.php", // location of the datafile
